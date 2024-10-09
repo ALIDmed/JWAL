@@ -33,7 +33,7 @@ def web_search(state):
     history = state["history"]
 
     # Web search
-    tavily = TavilyClient(api_key="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")
+    tavily = TavilyClient(api_key="")
     # For basic search:
     docs = tavily.search(query="Should I invest in Apple in 2024?")
     docs = docs["results"]
